@@ -1,0 +1,22 @@
+{
+  "name": "stylelint-config-shiwaforce",
+  "version": "0.1.0",
+  "description": "Shareable config for stylelint by ShiwaForce",
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "author": "ShiwaForce <hello@shiwaforce.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shiwaforce/stylelint-config-shiwaforce"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "stylelint": "^7.7.1"
+  }
+}
