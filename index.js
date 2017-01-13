@@ -1,6 +1,4 @@
-"use strict"
-
-module.export = {
+module.exports = {
 	"rules": {
 		"at-rule-empty-line-before": ["always", {
 			"except": ["blockless-group", "first-nested", "blockless-after-same-name-blockless"],
@@ -54,7 +52,6 @@ module.export = {
 		"property-no-vendor-prefix": true,
 		"root-no-standard-properties": true,
 		"rule-nested-empty-line-before": ["always", {"except": ["first-nested", "after-comment"]}],
-		"selector-class-pattern": "js-[a-z]+",
 		"selector-combinator-space-after": "always",
 		"selector-combinator-space-before": "always",
 		"selector-list-comma-newline-after": "always",
