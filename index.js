@@ -1,7 +1,7 @@
 module.exports = {
 	"rules": {
 		"at-rule-empty-line-before": ["always", {
-			"except": ["blockless-group", "first-nested", "blockless-after-same-name-blockless"],
+			"except": ["blockless-after-blockless", "first-nested", "blockless-after-same-name-blockless"],
 			"ignore": ["after-comment"],
 			"ignoreAtRules": ["font-face"]
 		}],
@@ -10,7 +10,6 @@ module.exports = {
 		"block-closing-brace-newline-after": "always",
 		"block-closing-brace-newline-before": "always",
 		"block-no-empty": true,
-		"block-no-single-line": true,
 		"block-opening-brace-newline-after": "always-multi-line",
 		"block-opening-brace-newline-before": "always-single-line",
 		"block-opening-brace-space-before": "always",
@@ -19,9 +18,7 @@ module.exports = {
 		"declaration-bang-space-after": "never",
 		"declaration-bang-space-before": "always",
 		"declaration-block-no-duplicate-properties": true,
-		"declaration-block-no-ignored-properties": true,
 		"declaration-block-no-shorthand-property-overrides": true,
-		"declaration-block-properties-order": "alphabetical",
 		"declaration-block-semicolon-newline-after": "always",
 		"declaration-block-semicolon-newline-before": "never-multi-line",
 		"declaration-block-semicolon-space-after": "always-single-line",
@@ -39,7 +36,6 @@ module.exports = {
 		"media-feature-colon-space-after": "always",
 		"media-feature-colon-space-before": "never",
 		"media-feature-name-no-vendor-prefix": true,
-		"media-feature-no-missing-punctuation": true,
 		"media-feature-range-operator-space-after": "always",
 		"media-feature-range-operator-space-before": "always",
 		"no-descending-specificity": true,
@@ -50,8 +46,6 @@ module.exports = {
 		"number-max-precision": 6,
 		"number-no-trailing-zeros": true,
 		"property-no-vendor-prefix": true,
-		"root-no-standard-properties": true,
-		"rule-nested-empty-line-before": ["always", {"except": ["first-nested", "after-comment"]}],
 		"selector-combinator-space-after": "always",
 		"selector-combinator-space-before": "always",
 		"selector-list-comma-newline-after": "always",
