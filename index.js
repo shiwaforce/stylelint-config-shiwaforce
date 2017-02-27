@@ -5,7 +5,7 @@ module.exports = {
 			"ignore": ["after-comment"],
 			"ignoreAtRules": ["font-face"]
 		}],
-		"at-rule-blacklist": ["extend", "keyframes"],
+		"at-rule-blacklist": ["extend"],
 		"at-rule-no-vendor-prefix": true,
 		"block-closing-brace-newline-after": "always",
 		"block-closing-brace-newline-before": "always",
