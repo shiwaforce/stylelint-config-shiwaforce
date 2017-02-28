@@ -3,7 +3,7 @@ module.exports = {
 		"at-rule-empty-line-before": ["always", {
 			"except": ["blockless-after-blockless", "first-nested", "blockless-after-same-name-blockless"],
 			"ignore": ["after-comment"],
-			"ignoreAtRules": ["font-face"]
+			"ignoreAtRules": ["font-face", "keyframes"]
 		}],
 		"at-rule-blacklist": ["extend"],
 		"at-rule-no-vendor-prefix": true,
