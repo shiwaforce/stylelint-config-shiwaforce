@@ -1,4 +1,7 @@
 module.exports = {
+	"plugins": [
+		"stylelint-order"
+	],
 	"rules": {
 		"at-rule-empty-line-before": ["always", {
 			"except": ["blockless-after-blockless", "first-nested", "blockless-after-same-name-blockless"],
@@ -45,6 +48,7 @@ module.exports = {
 		"no-invalid-double-slash-comments": true,
 		"number-max-precision": 6,
 		"number-no-trailing-zeros": true,
+		"order/declaration-block-properties-alphabetical-order": true,
 		"property-no-vendor-prefix": true,
 		"selector-combinator-space-after": "always",
 		"selector-combinator-space-before": "always",
