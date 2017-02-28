@@ -1,5 +1,5 @@
 # stylelint-config-shiwaforce
-
+We want to work with beautiful, nicely formatted code, so with the help of stylelint we aim to enforce it - as much as we can. In an ideal world everybody would write such high quality code. Until we reach this state to standardise code formatting the stylelint plugin can be a great help.
 
 ## Installation
 ```
