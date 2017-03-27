@@ -41,7 +41,6 @@ module.exports = {
 		"media-feature-name-no-vendor-prefix": true,
 		"media-feature-range-operator-space-after": "always",
 		"media-feature-range-operator-space-before": "always",
-		"no-descending-specificity": true,
 		"no-duplicate-selectors": true,
 		"no-eol-whitespace": true,
 		"no-extra-semicolons": true,
