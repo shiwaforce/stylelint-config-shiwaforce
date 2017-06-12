@@ -1,3 +1,5 @@
+# 1.0.3
+- Can not parse selector fix
 # 1.0.2
 - unit white list
 # 1.0.1
