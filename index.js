@@ -56,7 +56,6 @@ module.exports = {
 		"selector-no-id": true,
 		"selector-no-vendor-prefix": true,
 		"selector-pseudo-class-case": "lower",
-		"selector-pseudo-class-no-unknown": true,
 		"selector-pseudo-element-case": "lower",
 		"selector-pseudo-element-colon-notation": "double",
 		"unit-case": "lower",
