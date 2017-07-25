@@ -53,7 +53,6 @@ module.exports = {
 		"selector-combinator-space-before": "always",
 		"selector-list-comma-newline-after": "always",
 		"selector-list-comma-newline-before": "never-multi-line",
-		"selector-no-id": true,
 		"selector-no-vendor-prefix": true,
 		"selector-pseudo-class-case": "lower",
 		"selector-pseudo-element-case": "lower",
