@@ -1,3 +1,5 @@
+# 1.0.6
+- sort order rule fix
 # 1.0.5 
 - "no-missing-end-of-source-newline": true
 # 1.0.3

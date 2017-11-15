@@ -48,7 +48,7 @@ module.exports = {
 		"no-invalid-double-slash-comments": true,
 		"number-max-precision": 6,
 		"number-no-trailing-zeros": true,
-		"order/declaration-block-properties-alphabetical-order": true,
+		"order/properties-alphabetical-order": true,
 		"property-no-vendor-prefix": true,
 		"selector-combinator-space-after": "always",
 		"selector-combinator-space-before": "always",
