@@ -43,6 +43,7 @@ module.exports = {
 		"media-feature-range-operator-space-before": "always",
 		"no-duplicate-selectors": true,
 		"no-eol-whitespace": true,
+		"no-missing-end-of-source-newline": true,
 		"no-extra-semicolons": true,
 		"no-invalid-double-slash-comments": true,
 		"number-max-precision": 6,

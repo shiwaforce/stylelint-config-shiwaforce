@@ -1,3 +1,5 @@
+# 1.0.5 
+- "no-missing-end-of-source-newline": true
 # 1.0.3
 - Can not parse selector fix
 # 1.0.2
