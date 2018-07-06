@@ -59,6 +59,6 @@ module.exports = {
 		"selector-pseudo-element-case": "lower",
 		"selector-pseudo-element-colon-notation": "double",
 		"unit-case": "lower",
-		"unit-whitelist": ["px", "em", "rem", "%", "pt", "vh", "vw", "vmin", "vmax", "deg", "s"]
+		"unit-whitelist": ["px", "em", "rem", "%", "pt", "vh", "vw", "vmin", "vmax", "deg", "s", "ms"]
 	}
 };
