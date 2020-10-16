@@ -8,7 +8,7 @@ module.exports = {
 			"ignore": ["after-comment"],
 			"ignoreAtRules": ["font-face", "keyframes"]
 		}],
-		"at-rule-blacklist": ["extend"],
+		"at-rule-disallowed-list": ["extend"],
 		"at-rule-no-vendor-prefix": true,
 		"block-closing-brace-newline-after": "always",
 		"block-closing-brace-newline-before": "always",
@@ -59,6 +59,6 @@ module.exports = {
 		"selector-pseudo-element-case": "lower",
 		"selector-pseudo-element-colon-notation": "double",
 		"unit-case": "lower",
-		"unit-whitelist": ["px", "em", "rem", "%", "pt", "vh", "vw", "vmin", "vmax", "deg", "s", "ms"]
+		"unit-allowed-list": ["px", "em", "rem", "%", "pt", "vh", "vw", "vmin", "vmax", "deg", "s", "ms"]
 	}
 };
