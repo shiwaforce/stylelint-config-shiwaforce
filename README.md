@@ -33,9 +33,9 @@ For example if you would like to change ```"max-nesting-depth"``` rule from defa
 		"at-rule-empty-line-before": ["always", {
 			"except": ["blockless-after-blockless", "first-nested", "blockless-after-same-name-blockless"],
 			"ignore": ["after-comment"],
-			"ignoreAtRules": ["font-face"]
+			"ignoreAtRules": ["font-face", "keyframes"]
 		}],
-		"at-rule-blacklist": ["extend"],
+		"at-rule-disallowed-list": ["extend"],
 		"at-rule-no-vendor-prefix": true,
 		"block-closing-brace-newline-after": "always",
 		"block-closing-brace-newline-before": "always",
@@ -44,7 +44,6 @@ For example if you would like to change ```"max-nesting-depth"``` rule from defa
 		"block-opening-brace-newline-before": "always-single-line",
 		"block-opening-brace-space-before": "always",
 		"color-hex-case": "lower",
-		"color-hex-length": "short",
 		"declaration-bang-space-after": "never",
 		"declaration-bang-space-before": "always",
 		"declaration-block-no-duplicate-properties": true,
@@ -68,25 +67,25 @@ For example if you would like to change ```"max-nesting-depth"``` rule from defa
 		"media-feature-name-no-vendor-prefix": true,
 		"media-feature-range-operator-space-after": "always",
 		"media-feature-range-operator-space-before": "always",
-		"no-descending-specificity": true,
 		"no-duplicate-selectors": true,
 		"no-eol-whitespace": true,
 		"no-extra-semicolons": true,
 		"no-invalid-double-slash-comments": true,
+		"no-missing-end-of-source-newline": true,
 		"number-max-precision": 6,
 		"number-no-trailing-zeros": true,
+		"order/properties-alphabetical-order": true,
 		"property-no-vendor-prefix": true,
 		"selector-combinator-space-after": "always",
 		"selector-combinator-space-before": "always",
 		"selector-list-comma-newline-after": "always",
 		"selector-list-comma-newline-before": "never-multi-line",
-		"selector-no-id": true,
 		"selector-no-vendor-prefix": true,
 		"selector-pseudo-class-case": "lower",
-		"selector-pseudo-class-no-unknown": true,
 		"selector-pseudo-element-case": "lower",
 		"selector-pseudo-element-colon-notation": "double",
-		"unit-case": "lower"
+		"unit-case": "lower",
+		"unit-allowed-list": ["px", "em", "rem", "fr", "%", "pt", "vw", "vh", "dvh", "svh", "lvh", "dvb", "svb", "lvb", "vmin", "vmax", "deg", "s", "ms"]
 	}
 }
 ```

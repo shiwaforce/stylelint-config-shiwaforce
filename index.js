@@ -17,7 +17,6 @@ module.exports = {
 		"block-opening-brace-newline-before": "always-single-line",
 		"block-opening-brace-space-before": "always",
 		"color-hex-case": "lower",
-		"color-hex-length": "short",
 		"declaration-bang-space-after": "never",
 		"declaration-bang-space-before": "always",
 		"declaration-block-no-duplicate-properties": true,
@@ -46,7 +45,6 @@ module.exports = {
 		"no-extra-semicolons": true,
 		"no-invalid-double-slash-comments": true,
 		"no-missing-end-of-source-newline": true,
-		"number-leading-zero": "never",
 		"number-max-precision": 6,
 		"number-no-trailing-zeros": true,
 		"order/properties-alphabetical-order": true,
@@ -60,6 +58,6 @@ module.exports = {
 		"selector-pseudo-element-case": "lower",
 		"selector-pseudo-element-colon-notation": "double",
 		"unit-case": "lower",
-		"unit-allowed-list": ["px", "em", "rem", "fr", "%", "pt", "vh", "vw", "vmin", "vmax", "deg", "s", "ms"]
+		"unit-allowed-list": ["px", "em", "rem", "fr", "%", "pt", "vw", "vh", "dvh", "svh", "lvh", "dvb", "svb", "lvb", "vmin", "vmax", "deg", "s", "ms"]
 	}
 };

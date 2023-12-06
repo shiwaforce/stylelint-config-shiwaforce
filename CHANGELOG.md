@@ -1,6 +1,8 @@
+# 1.1.2
+- update devDependencies, remove "color-hex-length" and "number-leading-zero" rules, add dvh, svh, lvh, dvb, svb, lvb units
 # 1.0.6
 - sort order rule fix
-# 1.0.5 
+# 1.0.5
 - "no-missing-end-of-source-newline": true
 # 1.0.3
 - Can not parse selector fix
