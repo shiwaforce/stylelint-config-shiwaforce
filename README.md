@@ -61,7 +61,7 @@ For example if you would like to change ```"max-nesting-depth"``` rule from defa
 		"indentation": "tab",
 		"length-zero-no-unit": true,
 		"max-empty-lines": 2,
-		"max-nesting-depth": 2,
+		"max-nesting-depth": 3,
 		"media-feature-colon-space-after": "always",
 		"media-feature-colon-space-before": "never",
 		"media-feature-name-no-vendor-prefix": true,

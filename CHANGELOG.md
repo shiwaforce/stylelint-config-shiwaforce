@@ -1,5 +1,5 @@
 # 1.1.2
-- update devDependencies, remove "color-hex-length" and "number-leading-zero" rules, add dvh, svh, lvh, dvb, svb, lvb units
+- update devDependencies, remove "color-hex-length" and "number-leading-zero" rules, increase "max-nesting-depth" to 3, add dvh, svh, lvh, dvb, svb, lvb units
 # 1.0.6
 - sort order rule fix
 # 1.0.5
