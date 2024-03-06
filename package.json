@@ -16,8 +16,13 @@
   "files": [
     "index.js"
   ],
-  "devDependencies": {
-    "stylelint": "^14.16.1",
-    "stylelint-order": "^6.0.3"
+  "dependencies": {
+    "stylelint-order": "^6.0.4"
+  },
+  "peerDependencies": {
+    "stylelint": "^16.2.1"
+  },
+  "volta": {
+    "node": "20.11.1"
   }
 }

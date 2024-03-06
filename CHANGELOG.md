@@ -1,3 +1,5 @@
+# 2.0.0
+- update stylelint version to 16, remove deprecated rules
 # 1.1.2
 - update devDependencies, remove "color-hex-length" and "number-leading-zero" rules, increase "max-nesting-depth" to 3, add dvh, svh, lvh, dvb, svb, lvb units
 # 1.0.6
