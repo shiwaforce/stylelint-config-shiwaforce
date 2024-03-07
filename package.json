@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-shiwaforce",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "description": "Shareable config for stylelint by ShiwaForce",
   "keywords": [
     "stylelint",
@@ -16,8 +16,13 @@
   "files": [
     "index.js"
   ],
-  "devDependencies": {
-    "stylelint": "^14.16.1",
-    "stylelint-order": "^6.0.3"
+  "dependencies": {
+    "stylelint-order": "^6.0.4"
+  },
+  "peerDependencies": {
+    "stylelint": "^16.2.1"
+  },
+  "volta": {
+    "node": "20.11.1"
   }
 }
