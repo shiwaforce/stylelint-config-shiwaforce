@@ -1,9 +1,6 @@
 {
 	"printWidth": 120,
-	"pugPrintWidth": 300,
-	"pugUseTabs": true,
 	"singleQuote": true,
-	"pugSingleQuote": false,
 	"semi": true,
 	"useTabs": true,
 	"tabWidth": 2,
