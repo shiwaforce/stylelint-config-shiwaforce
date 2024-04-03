@@ -1,3 +1,5 @@
+# 2.1.0
+- update commonjs to esm
 # 2.0.0
 - update stylelint version to 16, remove deprecated rules
 # 1.1.2
