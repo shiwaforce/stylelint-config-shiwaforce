@@ -3,14 +3,14 @@ We want to work with beautiful, nicely formatted code, so with the help of style
 
 ## Installation
 ```
-npm i stylelint-config-shiwaforce --save
+npm i stylelint-config-shiwaforce --save-dev
 ```
 
 ## Usage
 If you've installed stylelint-config-shiwaforce locally within your project, just set your stylelint(`.stylelintrc.json`) config to:
 ```json
 {
-  "extends": "stylelint-config-shiwaforce"
+	"extends": "stylelint-config-shiwaforce"
 }
 ```
 
@@ -19,10 +19,10 @@ Just add ```"rules"``` key to your config, then add your additional/override rul
 For example if you would like to change ```"max-nesting-depth"``` rule from default to your own:
 ```json
 {
-  "extends": "stylelint-config-shiwaforce",
-  "rules": {
-    "max-nesting-depth": 4,
-  }
+	"extends": "stylelint-config-shiwaforce",
+	"rules": {
+		"max-nesting-depth": 4
+	}
 }
 ```
 
@@ -30,6 +30,7 @@ For example if you would like to change ```"max-nesting-depth"``` rule from defa
 ```json
 {
 	"rules": {
+		"alpha-value-notation": "number",
 		"at-rule-empty-line-before": ["always", {
 			"except": ["blockless-after-blockless", "first-nested", "blockless-after-same-name-blockless"],
 			"ignore": ["after-comment"],
@@ -39,19 +40,13 @@ For example if you would like to change ```"max-nesting-depth"``` rule from defa
 		"at-rule-no-vendor-prefix": true,
 		"block-no-empty": true,
 		"declaration-block-no-duplicate-properties": true,
-		"declaration-block-no-shorthand-property-overrides": true,
-		"declaration-block-single-line-max-declarations": 1,
 		"declaration-no-important": true,
-		"font-family-name-quotes": "always-unless-keyword",
+		"font-family-name-quotes": "always-where-recommended",
 		"length-zero-no-unit": true,
 		"max-nesting-depth": 3,
-		"media-feature-name-no-vendor-prefix": true,
 		"no-duplicate-selectors": true,
 		"no-invalid-double-slash-comments": true,
-		"number-max-precision": 6,
 		"order/properties-alphabetical-order": true,
-		"property-no-vendor-prefix": true,
-		"selector-no-vendor-prefix": true,
 		"selector-pseudo-element-colon-notation": "double",
 		"unit-allowed-list": ["px", "em", "rem", "fr", "%", "pt", "vw", "vh", "dvh", "svh", "lvh", "dvb", "svb", "lvb", "vmin", "vmax", "deg", "s", "ms"]
 	}
