@@ -1,5 +1,13 @@
 # 2.2.0
-- add "alpha-value-notation": "number", change "font-family-name-quotes" to "always-where-recommended", remove the following rules: "declaration-block-no-shorthand-property-overrides", "declaration-block-single-line-max-declarations", "media-feature-name-no-vendor-prefix", "number-max-precision", "property-no-vendor-prefix", "selector-no-vendor-prefix"
+- add "alpha-value-notation": "number"
+- change "font-family-name-quotes" to "always-where-recommended"
+- remove the following rules:
+  - "declaration-block-no-shorthand-property-overrides"
+  - "declaration-block-single-line-max-declarations"
+  - "media-feature-name-no-vendor-prefix"
+  - "number-max-precision"
+  - "property-no-vendor-prefix"
+  - "selector-no-vendor-prefix"
 # 2.1.0
 - update commonjs to esm
 # 2.0.0
