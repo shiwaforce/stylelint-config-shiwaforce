@@ -1,6 +1,6 @@
 # 2.2.0
 - add "alpha-value-notation": "number"
-- change "font-family-name-quotes" to "always-where-recommended"
+- change "font-family-name-quotes" value to "always-where-recommended"
 - remove the following rules:
   - "declaration-block-no-shorthand-property-overrides"
   - "declaration-block-single-line-max-declarations"
