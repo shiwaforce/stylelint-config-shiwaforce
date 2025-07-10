@@ -21,6 +21,13 @@ export default {
 		'no-duplicate-selectors': true,
 		'no-invalid-double-slash-comments': true,
 		'order/properties-alphabetical-order': true,
+		'rule-empty-line-before': [
+			'always',
+			{
+				except: ['first-nested'],
+				ignore: ['after-comment']
+			}
+		],
 		'selector-pseudo-element-colon-notation': 'double',
 		'unit-allowed-list': [
 			'px',
