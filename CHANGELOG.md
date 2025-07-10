@@ -1,3 +1,5 @@
+# 2.3.0
+- add "rule-empty-line-before"
 # 2.2.0
 - add "alpha-value-notation": "number"
 - change "font-family-name-quotes" value to "always-where-recommended"
