@@ -1,3 +1,6 @@
+# 2.4.0
+- add "custom-property-empty-line-before"
+- add "declaration-empty-line-before"
 # 2.3.0
 - add "rule-empty-line-before"
 # 2.2.0
