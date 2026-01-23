@@ -1,3 +1,5 @@
+# 3.0.0
+- update stylelint version to 17
 # 2.4.0
 - add "custom-property-empty-line-before"
 - add "declaration-empty-line-before"
