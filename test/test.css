@@ -1,0 +1,16 @@
+body {
+    color: #3r334
+}
+
+.accordion {
+    /* Properties not alphabetically ordered */
+    padding: 10px;
+    margin: 0px; /* zero with unit */
+    color: red !important; /* using !important */
+    background: blue;
+}
+
+.accordion:before {
+    /* single colon instead of double */
+    content: "→";
+}
