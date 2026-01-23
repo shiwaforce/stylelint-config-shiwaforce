@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-shiwaforce",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "type": "module",
   "description": "Shareable config for stylelint by ShiwaForce",
   "keywords": [
